@@ -1,0 +1,143 @@
+body {
+    background-color: #eee; 
+}
+h2{
+    text-align: center;
+} 
+table{
+    text-align: center;
+    /*margin-top: 15px;
+    margin-right: 150px;*/
+    border-collapse: collapse;
+    float: left;
+}
+.correct{
+    color: blue;
+}
+
+.correct:hover{
+    background: rgb(180, 180, 180);
+}
+
+.incorrect{
+    color: red;
+}
+.incorrect:hover{
+    background: rgb(180, 180, 180);
+}
+
+tr{
+    border-bottom: 1px solid #D3D3D3;
+}
+#bold{
+    border-bottom: 2px solid black;
+}
+td, th{
+    padding: 4px;
+}
+input[type = "text"], input:focus[type = "text"]{
+    border: 2px solid blue;
+    box-shadow: 0 0 3px blue;
+    outline: none;
+}
+#unor_list{
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-top: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+li{
+    list-style-type: none;
+    padding: 4px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #cfcfcf;
+}
+li:hover{
+    background: #9e7d6d
+}
+#blin{
+    border-bottom: none;
+}
+#pr3__clear{
+    border-radius: 10px;
+    background-color: white;
+}
+#map{
+    width: 350px; 
+    height: 300px;
+    float: right;
+    border-radius: 13%;
+    /*margin-top: 15px;
+    margin-left: 150px;*/
+}
+
+#page{
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+#score{
+    position: absolute;
+    text-align: center;
+    margin-left: 61%;
+    margin-top: 32%;
+    
+}
+
+#score ul li {
+    list-style-type: none;
+    float: left;
+    margin: 1px;
+}
+
+#score ul #correctN{
+    margin-left: 40px;
+    color: blue;
+    border-bottom: none;
+}
+
+#score ul #incorrectN{
+    margin-left: 70px;
+    color: red;
+    border-bottom: none;
+}
+
+#score ul #netscore{
+    margin-left: 70px;
+    color: green;
+    border-bottom: none;
+}
+
+#score ul #prevscore{
+    margin-left: 70px;
+    border-bottom: none;
+}
+
+#score ul #score_li{
+    margin-left: 10px;
+}
+li:hover{
+    background: #eee
+}
+
+#prevclear{
+    margin-left: 285px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#intro{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 500px;
+}
+
+#pr2__submit{
+    border-radius: 10px;
+    background-color: white;
+}
